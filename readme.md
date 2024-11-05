@@ -33,5 +33,5 @@ To run the code in your local, it is best to setup a virtual environment first.
 2. Access it on other device (local network)
    - make sure the device have one internet connection, check the local ip address:
      - `ifconfig | grep "inet " | grep -Fv 127.0.0.1 | awk '{print $2}'`
-   - The example result will be, url=192.xx.xx.xx
+   - The example result will be, `url=192.xx.xx.xx`
    - Run in your browser device: `http://:5000/`
