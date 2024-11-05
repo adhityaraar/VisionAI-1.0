@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CamGuardians Live Stream - Bringing you live webcam feeds 24/7">
+    <meta name="keywords" content="CamGuardians, Live Stream, Webcam Streaming">
+    <meta name="author" content="CamGuardians">
+    <title>CamGuardians Stream</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial, sans-serif';
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #15A3B7;
+            color: white;
+            text-align: center;
+        }
+        header {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        footer {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        main {
+            flex: 8;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        img {
+            border-radius: 8px;
+            max-width: 100%;
+            height: auto;
+        }
+        .subtitle {
+            font-size: 18px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .subtitle .bold {
+            font-weight: bold;
+        }
+        .subtitle .regular {
+            font-weight: normal;
+        }
+        .options-button {
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CamGuardians Real-time Safety Surveillance</h1>
+    </header>
+    <div class="subtitle">
+        <div>
+            <span class="bold">[SUCOFINDO CIBITUNG]</span>
+            <span class="regular">#24 SCILAB Selasar Taman</span>
+        </div>
+        <button class="options-button">⋮</button>
+    </div>
+    <main>
+        <img src="{{ url_for('video_feed') }}" alt="Video Feed">
+    </main>
+    <footer>
+        <p>© 2023 CamGuardians - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
