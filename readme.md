@@ -1,4 +1,3 @@
-<img width="346" alt="image" src="https://github.com/user-attachments/assets/0189571e-02dd-4caf-b88e-a18f2d9cbacf">
 <img src="https://github.com/user-attachments/assets/0189571e-02dd-4caf-b88e-a18f2d9cbacf" alt="image" width="346">
 
 # VisionAI
