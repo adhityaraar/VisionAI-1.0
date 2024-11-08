@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="346" alt="image" src="https://github.com/user-attachments/assets/0189571e-02dd-4caf-b88e-a18f2d9cbacf">
 
 # VisionAI
 VisionAI is a device that uses object detection to detect personal protective equipment (PPE) in a given image where it is deployed on a Jetson Nano device.
