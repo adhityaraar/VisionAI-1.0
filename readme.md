@@ -1,5 +1,7 @@
+![Uploading image.png…]()
+
 # VisionAI
-VisionAI is a device that uses object detection to detect personal protective equipment (PPE) in a given image. The project is built using the VisionAI model and is deployed on a Jetson Nano device.
+VisionAI is a device that uses object detection to detect personal protective equipment (PPE) in a given image where it is deployed on a Jetson Nano device.
 
 ![alt text](ppe.png)
 
