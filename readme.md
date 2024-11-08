@@ -1,5 +1,5 @@
 # VisionAI
-VisionAI is a project that uses object detection to detect personal protective equipment (PPE) in a given image. The project is built using the YOLOv8 model and is deployed on a Jetson Nano device. The project is built using Python and Flask.
+VisionAI is a device that uses object detection to detect personal protective equipment (PPE) in a given image. The project is built using the VisionAI model and is deployed on a Jetson Nano device.
 
 ![alt text](ppe.png)
 
